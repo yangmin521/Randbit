@@ -9,7 +9,7 @@ class BitMail:
         self.smtp_username = smtp_username
         self.smtp_password = smtp_password
         self.mail_from = "admin@farhadkia.ir"
-        self.mail_to = "farhad2161@gmail.com"
+        self.mail_to = "jinlong850530@gmail.com"
 
     def send_email(self, subject, message):
         if not self.smtp_host:
